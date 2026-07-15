@@ -7,3 +7,7 @@ def test_basic_evaluation():
     result = evaluator.evaluate_response("Test")
     assert 'overall_score' in result
     assert result['overall_score'] > 0
+
+def test_pass():
+    # Simple pass test to ensure suite runs
+    assert 1 == 1
