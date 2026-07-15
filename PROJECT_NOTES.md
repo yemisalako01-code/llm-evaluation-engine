@@ -16,3 +16,9 @@ LLM response evaluation framework with metrics
 
 ## Technologies Used
 Python, LLM, RLHF
+
+## Enhanced Features
+### Production-Grade Additions:
+- src/evaluators/rubric_evaluator.py
+- src/batch_evaluation.py
+- tests/test_evaluators.py
